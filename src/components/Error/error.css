@@ -1,0 +1,37 @@
+.error .info {
+  color: #FF6060;
+  text-align: center;
+  margin: 0;
+}
+.error .info h1 {
+  font-size: 288px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+@media screen and (max-width: 1024px) {
+  .error .info h1 {
+    font-size: 96px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+  }
+}
+.error .info h2 {
+  font-size: 36px;
+  margin-top: 0;
+}
+@media screen and (max-width: 1024px) {
+  .error .info h2 {
+    font-size: 18px;
+    margin-bottom: 100px;
+  }
+}
+.error .link {
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20%;
+}
+.error .link .return {
+  color: inherit;
+}/*# sourceMappingURL=error.css.map */

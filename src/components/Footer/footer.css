@@ -1,0 +1,38 @@
+#footer {
+    position: absolute;
+    bottom: 1;
+    left: 0;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+
+    @media screen and (max-width: 1024px) {
+      height: 209px;
+    }
+
+    .element {
+      position: relative;
+      top: 25%;
+
+      img {
+        width: 122px;
+        height: 39.44px;
+      }
+    
+      h3 {
+        font-family: Montserrat, sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        color: white;
+  
+        @media screen and (max-width: 1024px) {
+          width: 100%;
+          font-size: 12px; 
+          text-align: center;
+          left: 50%; /* Centre l'élément horizontalement */
+        }
+      }
+    }
+}

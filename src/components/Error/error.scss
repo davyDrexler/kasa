@@ -1,0 +1,42 @@
+@charset "UTF-8";
+.error{
+  .info {
+    color: #FF6060;
+    text-align: center;
+    margin: 0;
+  
+    h1 {
+      font-size: 288px;
+      margin-top: 5%;
+      margin-bottom: 5%;
+
+      @media screen and (max-width: 1024px) {
+        font-size: 96px;
+        margin-top: 150px;
+        margin-bottom: 100px;
+      }
+    }
+  
+    h2 {
+      font-size: 36px;
+      margin-top: 0;
+
+      @media screen and (max-width: 1024px) {
+        font-size: 18px;
+        margin-bottom: 100px;
+      }
+    }
+  }
+  
+  .link {
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20%;
+  
+    .return{
+      color: inherit;
+    }
+  }
+}
