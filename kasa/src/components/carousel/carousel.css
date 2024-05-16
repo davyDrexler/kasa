@@ -1,0 +1,21 @@
+.carousel {
+    position: relative;
+  }
+  
+  .carousel img.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 3%;
+    height: auto;
+  }
+  
+  .carousel img.next {
+    right: 30px; 
+  }
+  
+  .carousel img.previous {
+    left: 30px;
+  }
+  

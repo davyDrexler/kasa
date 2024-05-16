@@ -1,0 +1,152 @@
+.pages {
+    padding-top: 50px;
+  }
+  .pages .image-container img {
+    width: 100%;
+    height: 415px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  @media screen and (max-width: 1024px) {
+    .pages .image-container img {
+      width: 100%;
+      height: 255px;
+    }
+  }
+  .pages .infowner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+  }
+  @media screen and (max-width: 1024px) {
+    .pages .infowner {
+      display: block;
+    }
+  }
+  .pages .infowner .info {
+    width: 70%;
+    margin-right: 20px;
+  }
+  .pages .infowner .info h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #FF6060;
+    margin: 0;
+  }
+  @media screen and (max-width: 1024px) {
+    .pages .infowner .info h2 {
+      font-size: 18px;
+    }
+  }
+  .pages .infowner .info h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+  }
+  .pages .infowner .info .tag {
+    display: flex;
+    width: 70%;
+  }
+  @media screen and (max-width: 1024px) {
+    .pages .infowner .info .tag {
+      width: 100%;
+    }
+  }
+  .pages .infowner .info .tag h4 {
+    font-size: 14px;
+    font-weight: 700px;
+    color: #FFFFFF;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background-color: #FF6060;
+    text-align: center;
+    margin-right: 10px;
+  }
+  @media screen and (max-width: 1024px) {
+    .pages .infowner .info .tag h4 {
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+  }
+  .pages .infowner .owner {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+  }
+  @media screen and (max-width: 1024px) {
+    .pages .infowner .owner {
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  .pages .infowner .owner .host {
+    display: flex;
+    align-items: center;
+  }
+  .pages .infowner .owner .host img {
+    width: 64px;
+    height: 64px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  @media screen and (max-width: 1024px) {
+    .pages .infowner .owner .host img {
+      width: 44px;
+      height: 44px;
+    }
+  }
+  .pages .infowner .owner .host p {
+    padding-right: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FF6060;
+    text-align: right;
+    width: 40%;
+  }
+  @media screen and (max-width: 1024px) {
+    .pages .infowner .owner .host p {
+      font-size: 12px;
+    }
+  }
+  .pages .infowner .owner .rating-stars img {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+  }
+  @media screen and (max-width: 1024px) {
+    .pages .infowner .owner .rating-stars img {
+      width: 18px;
+      height: 18px;
+    }
+  }
+  .pages .info-dropdown {
+    display: flex;
+    width: 100%;
+  }
+  @media screen and (max-width: 1024px) {
+    .pages .info-dropdown {
+      display: block;
+    }
+  }
+  .pages .info-dropdown .description {
+    width: 40%;
+    margin-right: 20%;
+  }
+  @media screen and (max-width: 1024px) {
+    .pages .info-dropdown .description {
+      width: 100%;
+    }
+  }
+  .pages .info-dropdown .equipement {
+    width: 40%;
+  }
+  @media screen and (max-width: 1024px) {
+    .pages .info-dropdown .equipement {
+      width: 100%;
+    }
+  }/*# sourceMappingURL=logement.css.map */
