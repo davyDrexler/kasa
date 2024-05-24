@@ -1,5 +1,5 @@
 import React from 'react';
-import './BackgroundRectangle.css'; // Importez le fichier CSS
+import './BackgroundRectangle.css';
 
 class BackgroundRectangle extends React.Component {
   render() {

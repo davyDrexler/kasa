@@ -14,7 +14,7 @@ function LogementDetail() {
   const navigate = useNavigate(); 
 
   useEffect(() => {
-    const foundLogement = logementsData.find(logement => logement.id === id);
+    const foundLogement = logementsData.find(logement => logement.title === id);
     setLogement(foundLogement);
     setLoading(false); // Met à jour l'état du chargement une fois la requête fini
   }, [id]); // Déclencher l'effet à chaque changement de l'ID dans l'URL

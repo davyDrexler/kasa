@@ -13,7 +13,6 @@ function Dropdown({ titre, description, ClassName }) {
       <div className={`dropdown ${isActive ? 'open' : ''}`}>
         <div className='label-container' onClick={handleDropdownClick}>
           <label>{titre}</label>
-          {/* Utilisez une seule image pour l'icône et animez sa rotation */}
           <img className={`expand-icon ${isActive ? 'expanded' : ''}`} src={expandArrowUpImg} alt="Icône d'expansion" />
         </div>
         <div className={`description-dropdown ${ClassName} ${isActive ? 'show' : ''}`}>{description}</div>

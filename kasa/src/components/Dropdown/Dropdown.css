@@ -45,12 +45,12 @@
             color: #FF6060;
             white-space: pre-line;
             overflow: hidden;
-            height: 0;
+            max-height: 0px;
             opacity: 0; 
             transition: height 0.3s ease-in-out, opacity 0.3s ease-in-out;
     
             &.show {
-                height: 60px;
+                max-height: 500px;
                 opacity: 1; 
 
                 @media screen and (max-width: 1024px) {

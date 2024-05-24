@@ -21,7 +21,7 @@
       overflow: hidden;
 
       @media screen and (max-width: 1024px) {
-        width: 100%; /* Changez la largeur à 100% pour les écrans plus petits */
+        width: 100%; 
         max-width: 100%; 
       }
   
@@ -49,8 +49,8 @@
         border-bottom-left-radius: 8px;
         border-bottom-right-radius: 8px;
   
-        color: black; /* Utiliser la couleur héritée du parent */
-        text-decoration: none; /* Supprimer le soulignement */
+        color: black;
+        text-decoration: none;
       }
     }
   }
